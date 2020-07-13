@@ -145,7 +145,7 @@ body{
 }
 
 .visitblog{
-    color: #EED202;
+    color: #7E6F02;
     text-decoration: underline;
 }
 
@@ -156,7 +156,15 @@ a:hover{
 .innerpost:hover{
     background-color: #0c1d3c;
     color: white;
+    
+}
 
+.innerpost:hover a{
+    color: white;
+}
+
+.innerpost a:hover{
+    color:#EED202;
 }
 
 a{
@@ -175,7 +183,8 @@ ul{
     padding: 15px 5px 15px 5px;
     border: 1.5px solid #0c1d3c;
     margin: 10px 10px 10px 10px;
-    background: rgba(12, 29, 60, 0.3)
+    background: rgba(12, 29, 60, 0.3);
+    color: #0c1d3c;
 }
 
 h4{
